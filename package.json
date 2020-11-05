@@ -1,0 +1,15 @@
+{
+  "name": "fe-cypress-utils",
+  "version": "0.0.0",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "devDependencies": {
+    "cypress": "^5.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "typescript": "^4.0.5"
+  }
+}

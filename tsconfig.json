@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./lib",
+    "sourceMap": true,
+    "declaration": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "newLine": "lf",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "ES2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "include": [
+    "node_modules/cypress",
+    "**/*.ts"
+  ]
+}
